@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 class Counter extends Component {
   // state = {
   //   value: this.props.counter.value,
@@ -30,11 +31,11 @@ class Counter extends Component {
     );
   }
 
-  handleIncrement = product => {
-    console.log(product);
-    console.log("Increment button clicked");
-    this.setState({ value: this.state.value + 1 });
-  };
+  // handleIncrement = product => {
+  //   console.log(product);
+  //   console.log("Increment button clicked");
+  //   this.setState({ value: this.state.value + 1 });
+  // };
 
   // renderTags() {
   //   if (this.state.tags.length === 0) {
